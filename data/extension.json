@@ -1,0 +1,14 @@
+{
+	"useHTTP": false,
+	"extensionName": "CubeBot",
+	"extensionPort": 20807,
+	"blockSpecs": [
+		[" ", "say hello",                        "greet"],
+		["r", "CubeBot X position",               "botX"],
+		["r", "CubeBot Y position",               "botY"],
+		["r", "CubeBot heading",                  "botR"],
+		[" ", "set CubeBot x position to %n",     "scratchX", 0],
+		[" ", "set CubeBot y position to %n",     "scratchY", 0]
+		// ["h", "when collision detected",   "when_collision"],
+	]
+}
